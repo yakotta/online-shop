@@ -1,0 +1,91 @@
+body {
+    background-image: url('thomas-verbruggen-94814.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+pre {
+    font-family: sans-serif, monospace;
+    background-color: rgba(0,0,0,0);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.content {
+    margin: 0 10%;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+table ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.front-page-products .row div {
+    text-align: center;
+}
+
+table .actions {
+    width: 15%;
+}
+
+/* The following styles modify bootstrap styles */
+
+.input-group .input-group-addon,
+.input-group .form-control,
+.form-group button.submit-btn.btn.btn-default {
+    border-radius: 0px;
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+.panel.panel-default span {
+    display: inline-block;
+    line-height: 25px;
+}
+
+/* .panel.panel-default span:first-child {
+    width: 55px;
+} */
+
+.panel.panel-default {
+    background-color: rgba(255,255,255,0.75);
+}
+
+.form-group .input-group span {
+    min-width: 80px;
+}
+
+.form-group .input-group textarea {
+    min-width: 100%;
+    resize: vertical;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.data-table form {
+    text-align: left;
+}

@@ -1,0 +1,32 @@
+[09-Aug-2017 22:18:20 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/migrations/migration_1.php on line 2
+[09-Aug-2017 22:18:20 UTC] PHP Stack trace:
+[09-Aug-2017 22:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/migrations/index.php:0
+[09-Aug-2017 22:18:20 UTC] PHP   2. include() /home/ubuntu/workspace/migrations/index.php:9
+[09-Aug-2017 22:18:20 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/migrations/migration_1.php on line 2
+[09-Aug-2017 22:18:20 UTC] PHP Stack trace:
+[09-Aug-2017 22:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/migrations/index.php:0
+[09-Aug-2017 22:18:20 UTC] PHP   2. include() /home/ubuntu/workspace/migrations/index.php:9
+[09-Aug-2017 22:18:20 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/migrations/migration_1.php on line 4
+[09-Aug-2017 22:18:20 UTC] PHP Stack trace:
+[09-Aug-2017 22:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/migrations/index.php:0
+[09-Aug-2017 22:18:20 UTC] PHP   2. include() /home/ubuntu/workspace/migrations/index.php:9
+[18-Aug-2017 18:45:24 UTC] PHP Fatal error:  Cannot redeclare var_dump_pre() (previously declared in /home/ubuntu/workspace/resources/library.php:3) in /home/ubuntu/workspace/resources/library.php on line 3
+[18-Aug-2017 18:45:24 UTC] PHP Stack trace:
+[18-Aug-2017 18:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/migrations/index.php:0
+[18-Aug-2017 18:45:24 UTC] PHP   2. include() /home/ubuntu/workspace/migrations/index.php:50
+[18-Aug-2017 18:48:55 UTC] PHP Parse error:  syntax error, unexpected 'Migration' (T_STRING) in /home/ubuntu/workspace/migrations/index.php on line 42
+[18-Aug-2017 18:50:42 UTC] PHP Parse error:  syntax error, unexpected 'Migration' (T_STRING) in /home/ubuntu/workspace/migrations/index.php on line 42
+[18-Aug-2017 18:55:39 UTC] PHP Parse error:  syntax error, unexpected 'Migration' (T_STRING) in /home/ubuntu/workspace/migrations/index.php on line 62
+[18-Aug-2017 18:58:28 UTC] PHP Parse error:  syntax error, unexpected 'Migration' (T_STRING) in /home/ubuntu/workspace/migrations/index.php on line 64
+[25-Aug-2017 16:28:06 UTC] PHP Fatal error:  Call to undefined function connect() in /home/ubuntu/workspace/migrations/m_03_products.php on line 2
+[25-Aug-2017 16:28:06 UTC] PHP Stack trace:
+[25-Aug-2017 16:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/migrations/m_03_products.php:0
+[21-Sep-2017 15:16:13 UTC] PHP Warning:  include(resources/library.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/customer/create_customer.php on line 2
+[21-Sep-2017 15:16:13 UTC] PHP Stack trace:
+[21-Sep-2017 15:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/customer/create_customer.php:0
+[21-Sep-2017 15:16:13 UTC] PHP Warning:  include(): Failed opening 'resources/library.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/customer/create_customer.php on line 2
+[21-Sep-2017 15:16:13 UTC] PHP Stack trace:
+[21-Sep-2017 15:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/customer/create_customer.php:0
+[21-Sep-2017 15:16:13 UTC] PHP Fatal error:  Call to undefined function connect() in /home/ubuntu/workspace/customer/create_customer.php on line 3
+[21-Sep-2017 15:16:13 UTC] PHP Stack trace:
+[21-Sep-2017 15:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/customer/create_customer.php:0
